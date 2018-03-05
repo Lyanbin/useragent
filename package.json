@@ -1,6 +1,6 @@
 {
   "name": "mobile-useragent-parse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "china mobile useragent parse",
   "main": "index.js",
   "scripts": {
