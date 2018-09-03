@@ -1,10 +1,11 @@
 {
   "name": "mobile-useragent-parse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "china mobile useragent parse",
   "main": "index.js",
   "scripts": {
     "start": "parcel demo.html",
+    "build": "rollup -c rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,6 +15,13 @@
   "author": "lyanbin",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.6.2"
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "rollup": "^0.65.0",
+    "rollup-plugin-babel": "^3.0.7"
   }
 }
