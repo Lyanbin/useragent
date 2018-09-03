@@ -4,9 +4,9 @@ import babel from 'rollup-plugin-babel';
 export default {
     input: 'lib/index.js',
     output: {
-        file: 'useragent.min.js',
+        file: 'mobile-useragent-parse.min.js',
         format: 'umd',
-        name: 'useragent'
+        name: 'mobile-useragent-parse'
     },
     plugins: [
         babel({
