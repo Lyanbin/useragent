@@ -6,7 +6,7 @@ export default {
     output: {
         file: 'useragent.min.js',
         format: 'umd',
-        name: 'tbUseragent'
+        name: 'useragent'
     },
     plugins: [
         babel({

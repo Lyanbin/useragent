@@ -1,8 +1,8 @@
 {
   "name": "mobile-useragent-parse",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "china mobile useragent parse",
-  "main": "index.js",
+  "main": "useragent.min.js",
   "scripts": {
     "start": "parcel demo.html",
     "build": "rollup -c rollup.config.js",
